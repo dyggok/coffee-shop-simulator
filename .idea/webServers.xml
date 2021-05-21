@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="e480a0e8-4f56-4f9b-991c-e4a65b39faa7" name="test-server-name" url="https://tckimlik.nvi.gov.tr/Service/KPSPublic.asmx?wsdl">
+        <fileTransfer accessType="SFTP" host="localhost" port="22" sshConfigId="34464409-4a33-4eeb-b361-8bbd4b07163e" sshConfig="test01">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
